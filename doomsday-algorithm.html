@@ -1,133 +1,129 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Doomsday Algorithm</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doomsday Algorithm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body style="background-color: aqua;">
-        <nav class="navbar">
+<body style="background-color: aqua;">
+    <nav class="navbar">
         <ul>
             <li><a href="/"><u>Home</u></a></li>
             <li><a href="academic"><u>Academic</u></a></li>
             <li><a href="gaming"><u>Gaming</u></a></li>
             <li><a href="doomsday-algorithm"><u>Doomsday Algorithm</u></a></li>
         </ul>
-        </nav>
+    </nav>
 
-        <section id="Doomsday Algorithm"></section>
+    <section id="Doomsday Algorithm"></section>
 
-        <h1>Doomsday Algorithm</h1>
-        <p>The doomsday algorithm was developed by mathematician John Conway in the 1970s. It is a neat trick that can
-            allow one to determine the day of the week of any given date. It can be done quickly to impress others when
-            mastered.<br>
-            <big><span style="color: red;">Beware this is math heavy.</span></big><br>
-            <br>
-            Here are the main steps:
-        </p>
-        <h2 style="color:purple">Step 1</h2>
-        <h3>Grasp the doomsday pattern</h3>
-        <h4>Normal years</h4>
-        <ul>
-            <li>1/3</li>
-            <li>2/28</li>
-            <li>4/4</li>
-            <li>6/6</li>
-            <li>8/8</li>
-            <li>10/10</li>
-            <li>12/12</li>
-            <li>5/9</li>
-            <li>9/5</li>
-            <li>7/11</li>
-            <li>11/7</li>
-        </ul>
-        <h4>Leap years</h4>
-        <ul>
-            <li>1/4</li>
-            <li>2/29</li>
-        </ul>
-        <h4>Other dates</h4>
-        <ul>
-            <li>1/31 or 1/32</li>
-            <li>2/14 (Valentine's Day) or 2/15</li>
-            <li>3/14 (Pi Day)</li>
-            <li>7/4 (Independence Day)</li>
-            <li>10/31 (Halloween)</li>
-            <li>12/26 (Boxing Day)</li>
-        </ul>
+    <h1>Doomsday Algorithm</h1>
+    <p>The doomsday algorithm was developed by mathematician John Conway in the 1970s. It is a neat trick that can
+        allow one to determine the day of the week of any given date. It can be done quickly to impress others when
+        mastered.<br>
+        <big><span style="color: red;">Beware this is math heavy.</span></big><br>
         <br>
-        <i>When calculating, travel between these days and the given date.</i></p>
-        <h2 style="color:blue">Step 2</h2>
-        <table>
-            <th>Translate days of the week to numbers</th>
-            <tr>
-                <td><b>Day of the Week</b></td>
-                <td>Sunday</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
-                <td>Saturday</td>
-            </tr>
-            <tr>
-                <td><b>Number</b></td>
-                <td>0</td>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td><b>Hint</b></td>
-                <td><small>"Noneday"</small></td>
-                <td><small>"Oneday"</small></td>
-                <td><small>"Twosday"</small></td>
-                <td><small>"Threes-a-day"</small></td>
-                <td><small>"Foursday"</small></td>
-                <td><small>"Fiveday"</small></td>
-                <td><small>"Six-a-day"</small></td>
-            </tr>
-        </table>
-        <h2 style="color:darkgreen">Step 3</h2>
-        <h3>Memorize anchor doomsdays</h3>
-        <ol>
-            <li>1700 – Sunday</li>
-            <li>1800 – Friday</li>
-            <li>1900 – Wednesday</li>
-            <li>2000 – Tuesday</li>
-        </ol>
-        <i>Pattern repeats</i>
-        <h2 style="color:yellowgreen">Step 4</h2>
-        <h3>Learn how the doomsday changes from year to year</h3>
-        <p>Each year, the doomsday moves forward one day. Each leap year, the doomsday moves forward two days.<br>
-            <u>Importantly, the doomsday moves forward one day every 12 years.</u>
-        </p>
+        Here are the main steps:
+    </p>
+    <h2 style="color:purple">Step 1</h2>
+    <h3>Grasp the doomsday pattern</h3>
+    <h4>Normal years</h4>
+    <ul>
+        <li>1/3</li>
+        <li>2/28</li>
+        <li>4/4</li>
+        <li>6/6</li>
+        <li>8/8</li>
+        <li>10/10</li>
+        <li>12/12</li>
+        <li>5/9</li>
+        <li>9/5</li>
+        <li>7/11</li>
+        <li>11/7</li>
+    </ul>
+    <h4>Leap years</h4>
+    <ul>
+        <li>1/4</li>
+        <li>2/29</li>
+    </ul>
+    <h4>Other dates</h4>
+    <ul>
+        <li>1/31 or 1/32</li>
+        <li>2/14 (Valentine's Day) or 2/15</li>
+        <li>3/14 (Pi Day)</li>
+        <li>7/4 (Independence Day)</li>
+        <li>10/31 (Halloween)</li>
+        <li>12/26 (Boxing Day)</li>
+    </ul>
+    <br>
+    <i>When calculating, travel between these days and the given date.</i></p>
+    <h2 style="color:blue">Step 2</h2>
+    <table>
+        <th>Translate days of the week to numbers</th>
+        <tr>
+            <td><b>Day of the Week</b></td>
+            <td>Sunday</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+        </tr>
+        <tr>
+            <td><b>Number</b></td>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td><b>Hint</b></td>
+            <td><small>"Noneday"</small></td>
+            <td><small>"Oneday"</small></td>
+            <td><small>"Twosday"</small></td>
+            <td><small>"Threes-a-day"</small></td>
+            <td><small>"Foursday"</small></td>
+            <td><small>"Fiveday"</small></td>
+            <td><small>"Six-a-day"</small></td>
+        </tr>
+    </table>
+    <h2 style="color:darkgreen">Step 3</h2>
+    <h3>Memorize anchor doomsdays</h3>
+    <ol>
+        <li>1700 – Sunday</li>
+        <li>1800 – Friday</li>
+        <li>1900 – Wednesday</li>
+        <li>2000 – Tuesday</li>
+    </ol>
+    <i>Pattern repeats</i>
+    <h2 style="color:yellowgreen">Step 4</h2>
+    <h3>Learn how the doomsday changes from year to year</h3>
+    <p>Each year, the doomsday moves forward one day. Each leap year, the doomsday moves forward two days.<br>
+        <u>Importantly, the doomsday moves forward one day every 12 years.</u>
+    </p>
 
-        <h2 style="color:Gold">Step 5</h2>
-        <p>Put it all together!</p>
+    <h2 style="color:Gold">Step 5</h2>
+    <p>Put it all together!</p>
 
-        <a href="https://www.whattheday.com">
-        <img src="images/Doomsday_Rule.svg"
-        alt="Doomsday rules reference chart"
-        title="Click to practice"></a>
+    <a href="https://www.whattheday.com">
+        <img src="images/Doomsday_Rule.svg" alt="Doomsday rules reference chart" title="Click to practice"></a>
 
-        <img src="images/pointer.jpg"
-        alt="Finger pointing upwards"
-        title="Click above to practice">
-        <iframe width="560" height="315"src="https://www.youtube.com/embed/z2x3SSBVGJU?si=rcydAlr-mWbjoPPl"
+    <img src="images/pointer.jpg" alt="Finger pointing upwards" title="Click above to practice">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/z2x3SSBVGJU?si=rcydAlr-mWbjoPPl"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <big><a href="https://en.wikipedia.org/wiki/Doomsday_rule">
-        Doomsday on Wikipedia</a></big>
-    </body>
+    <big><a href="https://en.wikipedia.org/wiki/Doomsday_rule">
+            Doomsday on Wikipedia</a></big>
+</body>
 </section>
 <footer>
     <small>&copy; 2026 Grant Krulewitz. All rights reserved.</small>
