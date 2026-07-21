@@ -15,7 +15,6 @@ h1{
     background-color: rgb(1, 21, 201)
     padding 0px;
     margin: 0px;
-    overflow: hidden;
 }
 
 .navbar a{
@@ -28,8 +27,4 @@ h1{
 
 .navbar a:hover{
     background-color: rgb(0, 6, 64);
-}
-
-.navbar li{
-    float: left;
 }
