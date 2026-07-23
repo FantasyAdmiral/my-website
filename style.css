@@ -38,3 +38,7 @@ a:hover, a:visited, a:link, a:active
 .navbar a:hover{
     background-color: rgb(32, 53, 246);
 }
+
+footer{
+    margin: 5px;
+}
