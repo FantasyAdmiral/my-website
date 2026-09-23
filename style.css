@@ -19,7 +19,7 @@ a:hover, a:visited, a:link, a:active
 
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(78, 94, 237);
+    background-color: rgb(75, 75, 75);
     padding: 0px;
     margin: 0px;
     display: flex;
